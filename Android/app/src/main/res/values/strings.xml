@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Menu App</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="restaurant">Restaurants</string>
+    <string name="category">Cuisines</string>
+    <string name="favorites">Restaurants Préférés</string>
+    <string name="favorite_food">Plats Préférés</string>
+    <string name="wizzard">Didacticiel</string>
+    <string name="exit">Partir</string>
+
+    <!--Home Activity-->
+    <string name="welcome_title">Bienvenue</string>
+    <string name="welcome_sign_to_continue">Connectez-vous pour continuer.</string>
+    <string name="welcome_email_or_username">COURRIEL OU NOM D UTILISATEUR</string>
+    <string name="welcome_password">MOT DE PASSE</string>
+    <string name="welcome_login_button">Se connecter</string>
+    <string name="welcome_fb_login_button">Se connecter avec Facebook</string>
+    <string name="welcome_forgot_password">Avez-vous oublié votre mot de passe?</string>
+    <string name="welcome_dont_have_account">PAS DE COMPTE ENCORE? INSCRIVEZ-VOUS.</string>
+
+    <!--Home Activity-->
+    <string name="home_categories">Catégories</string>
+    <string name="home_places">Restaurants</string>
+    <string name="home_view_all">Voir tous</string>
+    <string name="home_search">Recherche</string>
+    <string name="home_toolbar">Bienvenue, Tabbene</string>
+    <string name="home_filter">Filtre</string>
+
+
+    <!--Place Activity-->
+    <string name="place_delivery">Livraison</string>
+    <string name="place_open_time">Horaires</string>
+    <string name="place_contact">Contact</string>
+    <string name="place_featured">En vedette</string>
+    <string name="place_menu">MENU</string>
+
+
+    <!--Item Details Activity-->
+    <string name="item_details_extra_title">Ajouts</string>
+    <string name="item_details_extra_obs">Des observations?</string>
+    <string name="item_details_extra_hint">Ex:Enlevez l oignon ,la mayonnaise séparément,la pointe de la viande,etc ...</string>
+    <string name="item_details_description">DESCRIPTION</string>
+    <string name="item_details_add_to_order">FAIRE UNE DEMANDE</string>
+
+    <!--Profile Activity-->
+    <string name="profile_toolbar">Profil</string>
+    <string name="profile_edit">Éditer</string>
+    <string name="profile_account_credits">Crédit</string>
+    <string name="profile_favorite_foods">Plats Préférés</string>
+    <string name="profile_favorite_restaurants">Restaurants préférés</string>
+
+    <!--Favorite Foods Activity-->
+    <string name="fav_food_toolbar">PLATS PRÉFÉRÉS</string>
+    <string name="fav_food_title">Plats Préférés</string>
+
+    <!--Favorite Restaurants Activity-->
+    <string name="fav_place_toolbar">RESTAURANTS FAVORIS</string>
+    <string name="fav_place_title">Restaurants préférés</string>
+
+    <!--Restaurants List Activity-->
+    <string name="places_list_toolbar">RESTAURANTS</string>
+    <string name="places_list_title">Restaurants</string>
+
+    <!--Categories List Activity-->
+    <string name="categories_list_toolbar">CATÉGORIES</string>
+    <string name="categories_list_title">Catégories</string>
+    <string name="categories_list_contact">Vous avez une catégorie à suggérer? Contactez nous!</string>
+
+    <!--Menu-->
+    <string name="menu_home">Accueil</string>
+    <string name="menu_discover">Recherche</string>
+    <string name="menu_favorite">Favoris</string>
+    <string name="menu_profile">Profil</string>
+
+    <!--Ask for food-->
+    <string name="ask_for_food_begin">Bonjour Je voudrais commander un</string>
+    <string name="ask_for_food_extras">avec les extras de: </string>
+
+
+    <!--login-->
+    <string name="s_frag_register_nickname">Pseudo de l\'utilisateur</string>
+    <string name="s_frag_register_phone_num">Numéro de téléphone</string>
+    <string name="s_frag_register_password_check">Confirmer le mot de passe</string>
+    <string name="s_frag_register_protocol">D\'accord avec l\'accord HZF</string>
+    <string name="s_frag_register_submit">Inscription complète</string>
+
+    <string name="s_frag_login_register_password">Mot de passe</string>
+
+    <string name="s_frag_login_login">Connectez-vous</string>
+    <string name="s_frag_login_nickname_or_phone_num">Pseudo / numéro de mobile</string>
+
+    <string name="s_activity_main_login">Connectez-vous</string>
+    <string name="s_activity_main_login_success">Connexion réussie</string>
+    <string name="s_activity_main_login_failure">Échec de la connexion</string>
+    <string name="s_activity_main_register">S\'inscrire</string>
+    <string name="s_activity_main_register_input_nickname">L\'enregistrement a échoué, le pseudo de l\'utilisateur na pas été entré!</string>
+    <string name="s_activity_main_register_input_phone_num">L\'enregistrement a échoué, aucun numéro de téléphone portable n\'a été entré!</string>
+    <string name="s_activity_main_register_input_password">L\'enregistrement a échoué, aucun mot de passe n\'a été entré!</string>
+    <string name="s_activity_main_register_input_confirm_password">L\'enregistrement a échoué, aucun mot de passe de confirmation n\'a été entré！</string>
+    <string name="s_activity_main_register_input_password_wrong">L\'enregistrement a échoué avec des mots de passe incohérents!</string>
+    <string name="s_activity_main_register_input_protocol">L\'enregistrement a échoué avec le protocol</string>
+    <string name="s_activity_main_register_success">Enregistré avec succès</string>
+    <string name="s_activity_main_register_failure">L\'enregistrement a échoué</string>
+
+
+    <string name="s_url">http://192.168.1.6:4000/</string>
+    <string name="s_url_login">http://192.168.1.6:4000/login1/</string>
+    <string name="s_url_register">http://192.168.1.6:4000/register1/</string>
+
+
+</resources>

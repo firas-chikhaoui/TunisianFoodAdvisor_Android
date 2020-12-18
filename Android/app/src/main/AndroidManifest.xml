@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.tunisianfood_advisor">
+
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".activity.SearchActivity"></activity>
+
+        <activity android:name=".activity.EditerProfilActivity"></activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="fullSensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.ItemDetailsActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustUnspecified|adjustPan" />
+        <activity
+            android:name=".activity.PlaceActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activity.HomeActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activity.ProfileActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activity.FavoritePlacesActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppDarkTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".activity.PlacesListActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppDarkTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".activity.CategoriesListActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppDarkTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".activity.FavoriteItemsActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppDarkTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
